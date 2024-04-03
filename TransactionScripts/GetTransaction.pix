@@ -130,27 +130,32 @@
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>str_transactionItem</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i17">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>str_transactionID</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i18">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>int_transCount</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
     <Parameter z:Id="i19">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>str_queueName</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
   </Params>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>

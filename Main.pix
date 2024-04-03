@@ -4131,60 +4131,70 @@ STATE 5: Завершение</Text>
       <DefaultValueExpression>0</DefaultValueExpression>
       <Description>Количество транзакций, которое должно быть обработано за один запуск. int_transNumber==0 - без ограничений</Description>
       <Name>int_transNumber</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
     <Parameter z:Id="i454">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_isProd==true - робот работает в продуктиве. bool_isProd==false - робот в предпродуктиве или тесте </Description>
       <Name>bool_isProd</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
     <Parameter z:Id="i455">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_isPredProd==true - робот работает в предпродуктиве. bool_isPredProd==false - робот в продуктиве или тесте.</Description>
       <Name>bool_isPredProd</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
     <Parameter z:Id="i456">
       <DefaultValueExpression>1</DefaultValueExpression>
       <Description>Макс. кол-во попыток обработки транзакции</Description>
       <Name>int_maxTransactionRetry</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
     <Parameter z:Id="i457">
       <DefaultValueExpression>@""</DefaultValueExpression>
       <Description>Входной дополнительный параметр</Description>
       <Name>str_param1</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i458">
       <DefaultValueExpression>@""</DefaultValueExpression>
       <Description>Входной дополнительный параметр 2</Description>
       <Name>str_param2</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Object</TypeString>
     </Parameter>
     <Parameter z:Id="i459">
-      <DefaultValueExpression>@"Ref_Processing"</DefaultValueExpression>
+      <DefaultValueExpression>@"MSJuiko_GUR"</DefaultValueExpression>
       <Description>Название очереди</Description>
       <Name>str_queueName</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i460">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_useDispatcher==true, bool_usePerformer==false - робот работает в режиме создания транзакций в целевую очередь.</Description>
       <Name>bool_useDispatcher</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
     <Parameter z:Id="i461">
       <DefaultValueExpression>false</DefaultValueExpression>
       <Description>bool_usePerformer==true, bool_useDispatcher==false - робот работает в режиме обработки транзакций в целевой очереди.</Description>
       <Name>bool_usePerformer</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
     <Parameter z:Id="i462">
       <DefaultValueExpression>0</DefaultValueExpression>
       <Description>Макс. кол-во последовательных ошибок. При значении 0 - ограничений нет.</Description>
       <Name>int_maxConsecutiveExceptions</Name>
+      <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
   </Params>

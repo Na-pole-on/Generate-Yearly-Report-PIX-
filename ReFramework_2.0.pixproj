@@ -25,31 +25,67 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i7">
       <IsMain>false</IsMain>
-      <Path>IN\Request.xlsx</Path>
+      <Path>TransactionScripts\CreateTransactions.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i8">
       <IsMain>false</IsMain>
-      <Path>TransactionScripts\CreateTransactions.pix</Path>
+      <Path>TransactionScripts\Finalize.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i9">
       <IsMain>false</IsMain>
-      <Path>TransactionScripts\Finalize.pix</Path>
+      <Path>TransactionScripts\PreProcess.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i10">
       <IsMain>false</IsMain>
-      <Path>TransactionScripts\PreProcess.pix</Path>
+      <Path>TransactionScripts\Process.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i11">
       <IsMain>false</IsMain>
-      <Path>TransactionScripts\Process.pix</Path>
-    </ProjectFileItem>
-    <ProjectFileItem z:Id="i12">
-      <IsMain>false</IsMain>
       <Path>TransactionScripts\GetTransaction.pix</Path>
     </ProjectFileItem>
-    <ProjectFileItem z:Id="i13">
+    <ProjectFileItem z:Id="i12">
       <IsMain>true</IsMain>
       <Path>Main.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i13">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_GetInformationFromClientInformationDetails.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i14">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_GetWorkItems.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i15">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_LogIn.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i16">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_NavigateToWorkItem.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i17">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_NavigateToWorkItemDetails.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i18">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_GetAllReports.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i19">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_InputData.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i20">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_CreateYearReport.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i21">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_NavigateToDownloadMonthlyReport.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i22">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_NavigateToUploadYearlyReport.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
