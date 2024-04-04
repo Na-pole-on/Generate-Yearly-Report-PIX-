@@ -243,7 +243,7 @@
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
-                            <Text></Text>
+                            <Text>Присвоить WIID словарю</Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
                           <AbstractStep z:Id="i35" i:type="ExecutedStep">
