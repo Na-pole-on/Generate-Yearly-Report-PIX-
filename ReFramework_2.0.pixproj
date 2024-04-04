@@ -73,19 +73,31 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i19">
       <IsMain>false</IsMain>
-      <Path>System1\System1_InputData.pix</Path>
+      <Path>System1\System1_CreateYearReport.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i20">
       <IsMain>false</IsMain>
-      <Path>System1\System1_CreateYearReport.pix</Path>
+      <Path>System1\System1_NavigateToDownloadMonthlyReport.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i21">
       <IsMain>false</IsMain>
-      <Path>System1\System1_NavigateToDownloadMonthlyReport.pix</Path>
+      <Path>System1\System1_NavigateToUploadYearlyReport.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i22">
       <IsMain>false</IsMain>
-      <Path>System1\System1_NavigateToUploadYearlyReport.pix</Path>
+      <Path>System1\System1_DeleteAllMonthAndYearReports.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i23">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_UploadYearReport.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i24">
+      <IsMain>false</IsMain>
+      <Path>System1\System1_CreateMonthAndYearReportsFolder.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i25">
+      <IsMain>false</IsMain>
+      <Path>System1\Sustem1_InputData.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
