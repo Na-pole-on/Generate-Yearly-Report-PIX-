@@ -1928,7 +1928,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>div</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i245">
@@ -1953,7 +1953,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>div</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i248">
@@ -1978,7 +1978,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>div</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i251">
@@ -2003,7 +2003,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>div</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i254">
@@ -2047,7 +2047,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>form</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i259">
@@ -2072,7 +2072,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>div</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i262">
@@ -2689,7 +2689,7 @@
               <PropertyValue z:Id="i334">
                 <PropertyName>Timeout</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>5</_expression>
+                <_expression>30</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -3181,7 +3181,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>Pane</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i391">
@@ -3306,7 +3306,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>Pane</d9p1:Name>
                       </d9p1:XPathNode>
                     </d10p1:list>
@@ -3836,7 +3836,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>Pane</d9p1:Name>
                       </d9p1:XPathNode>
                       <d9p1:XPathNode z:Id="i465">
@@ -3961,7 +3961,7 @@
                             </d9p1:XPathAttribute>
                           </d10p1:list>
                         </d9p1:Attributes>
-                        <d9p1:IsEnabled>true</d9p1:IsEnabled>
+                        <d9p1:IsEnabled>false</d9p1:IsEnabled>
                         <d9p1:Name>Pane</d9p1:Name>
                       </d9p1:XPathNode>
                     </d10p1:list>
@@ -4594,7 +4594,7 @@
                                     </d13p1:XPathAttribute>
                                   </d14p1:list>
                                 </d13p1:Attributes>
-                                <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                 <d13p1:Name>Window</d13p1:Name>
                               </d13p1:XPathNode>
                               <d13p1:XPathNode z:Id="i553">
@@ -4710,7 +4710,7 @@
                                     </d13p1:XPathAttribute>
                                   </d14p1:list>
                                 </d13p1:Attributes>
-                                <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                 <d13p1:Name>Pane</d13p1:Name>
                               </d13p1:XPathNode>
                               <d13p1:XPathNode z:Id="i566">
@@ -4764,7 +4764,7 @@
                                       <d13p1:_name>AccessKey</d13p1:_name>
                                     </d13p1:XPathAttribute>
                                     <d13p1:XPathAttribute z:Id="i570">
-                                      <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                      <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                       <d13p1:IsPositionAttribute>false</d13p1:IsPositionAttribute>
                                       <d13p1:Operator>Equal</d13p1:Operator>
                                       <d13p1:Value>'FileNameControlHost'</d13p1:Value>
@@ -4925,7 +4925,7 @@
                                     </d13p1:XPathAttribute>
                                   </d14p1:list>
                                 </d13p1:Attributes>
-                                <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                 <d13p1:Name>ComboBox</d13p1:Name>
                               </d13p1:XPathNode>
                               <d13p1:XPathNode z:Id="i590">
@@ -4977,7 +4977,7 @@
                                       <d13p1:_name>AutomationId</d13p1:_name>
                                     </d13p1:XPathAttribute>
                                     <d13p1:XPathAttribute z:Id="i594">
-                                      <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                      <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                       <d13p1:IsPositionAttribute>false</d13p1:IsPositionAttribute>
                                       <d13p1:Operator>Equal</d13p1:Operator>
                                       <d13p1:Value>'Edit'</d13p1:Value>
@@ -5670,7 +5670,7 @@
                                     </d13p1:XPathAttribute>
                                   </d14p1:list>
                                 </d13p1:Attributes>
-                                <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                 <d13p1:Name>Window</d13p1:Name>
                               </d13p1:XPathNode>
                               <d13p1:XPathNode z:Id="i675">
@@ -5719,7 +5719,7 @@
                                       <d13p1:_name>AutomationId</d13p1:_name>
                                     </d13p1:XPathAttribute>
                                     <d13p1:XPathAttribute z:Id="i679">
-                                      <d13p1:IsEnabled>true</d13p1:IsEnabled>
+                                      <d13p1:IsEnabled>false</d13p1:IsEnabled>
                                       <d13p1:IsPositionAttribute>false</d13p1:IsPositionAttribute>
                                       <d13p1:Operator>Equal</d13p1:Operator>
                                       <d13p1:Value>'Button'</d13p1:Value>

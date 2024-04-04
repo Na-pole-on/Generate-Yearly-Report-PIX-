@@ -72,7 +72,7 @@
           <PropertyValue z:Id="i8">
             <PropertyName>BaseDataTable</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Result</_expression>
+            <_expression>dt_YearReport</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -108,14 +108,14 @@
               <PropertyValue z:Id="i13">
                 <PropertyName>DataTable</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>table</_expression>
+                <_expression>dt_tableFromFile</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
               <PropertyValue z:Id="i14">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>path</_expression>
+                <_expression>str_path</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -149,7 +149,7 @@
               <PropertyValue z:Id="i18">
                 <PropertyName>SourceDataTable</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>Result</_expression>
+                <_expression>dt_YearReport</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -163,14 +163,14 @@
               <PropertyValue z:Id="i20">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>Result</_expression>
+                <_expression>dt_YearReport</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
               <PropertyValue z:Id="i21">
                 <PropertyName>BaseDataTable</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>table</_expression>
+                <_expression>dt_tableFromFile</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
@@ -196,7 +196,7 @@
           <PropertyValue z:Id="i23">
             <PropertyName>Iterator</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>path</_expression>
+            <_expression>str_path</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -230,7 +230,7 @@
           <PropertyValue z:Id="i27">
             <PropertyName>DataTable</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Result</_expression>
+            <_expression>dt_YearReport</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>

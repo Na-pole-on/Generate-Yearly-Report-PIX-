@@ -48,7 +48,7 @@
           <PropertyValue z:Id="i9">
             <PropertyName>TabUrl</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dict_config["AcmeTestURL"].ToString() + "/" + str_WIID</_expression>
+            <_expression>dict_config["WorkItemDetailsURL"].ToString() + "/" + str_WIID</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -96,7 +96,7 @@
           <PropertyValue z:Id="i15">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>text</_expression>
+            <_expression>str_text</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -355,7 +355,7 @@
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Contains</d7p1:Operator>
-                          <d7p1:Value>"Client ID"</d7p1:Value>
+                          <d7p1:Value>'TaxID:'</d7p1:Value>
                           <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
                           <d7p1:_name>.</d7p1:_name>
                         </d7p1:XPathAttribute>
@@ -399,7 +399,7 @@
           <PropertyValue z:Id="i52">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Regex.Match(text, @"(?&lt;=TaxID: +)\w+")
+            <_expression>Regex.Match(str_text, @"(?&lt;=TaxID:\s+)\w+")
     .ToString().Trim()</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -407,7 +407,7 @@
           <PropertyValue z:Id="i53">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>str_TaxId</_expression>
+            <_expression>str_taxId</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -438,28 +438,21 @@
     <Parameter z:Id="i54">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
-      <Name>str_hashStr</Name>
-      <RunnerType>None</RunnerType>
-      <TypeString>System.String</TypeString>
-    </Parameter>
-    <Parameter z:Id="i55">
-      <DefaultValueExpression></DefaultValueExpression>
-      <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i56">
+    <Parameter z:Id="i55">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>str_WIID</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i57">
+    <Parameter z:Id="i56">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
-      <Name>str_TaxId</Name>
+      <Name>str_taxId</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
