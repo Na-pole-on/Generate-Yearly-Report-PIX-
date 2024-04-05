@@ -53,8 +53,8 @@
           </PropertyValue>
           <PropertyValue z:Id="i9">
             <PropertyName>LaunchArgs</PropertyName>
-            <_dataType>Value</_dataType>
-            <_expression></_expression>
+            <_dataType>Expression</_dataType>
+            <_expression>"--force-renderer-accessibility=complete -lang=ru"</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>

@@ -13,7 +13,7 @@
           <PropertyValue z:Id="i4">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Directory.GetFiles(dict_config["MonthReportsFolderPath"].ToString())</_expression>
+            <_expression>Directory.GetFiles(dict_paths["ReportMonthFolder"].ToString())</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -258,7 +258,7 @@
           <PropertyValue z:Id="i31">
             <PropertyName>FileName</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Path.Combine(dict_config["YearReportFolderPath"].ToString(), "Yearly-Report-2023-" + str_TaxId + ".xlsx")</_expression>
+            <_expression>Path.Combine(dict_paths["TEMPFolder"].ToString(), "Yearly-Report-2023-" + str_TaxId + ".xlsx")</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -297,6 +297,13 @@
       <Name>str_TaxId</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i34">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>dict_paths</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
   </Params>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
